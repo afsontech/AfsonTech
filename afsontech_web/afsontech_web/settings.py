@@ -14,22 +14,13 @@ from pathlib import Path
 
 import os
 
-# Base directory of your project
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_URL = '/static/'  # Note the added forward slash
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.1/howto/static-files/
-
-STATIC_URL = 'static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Directory where static files will be collected
-
-# Additional directories for static files
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'home_page/static'),  # Path to your static files
-]
-
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+# During development only - where to look for static files
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'home_page/static'),
+]
 
 
 # Quick-start development settings - unsuitable for production
@@ -39,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-8m3z$r*!hr7y+)vxo^xsg^7kht-ec#kx(7dyl9towit6a_9z^2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 

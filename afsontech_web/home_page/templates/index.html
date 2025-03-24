@@ -528,231 +528,210 @@
         <h6 class="tracking-wide text-6xl">Our Projects</h6>
       </div>
 
-      <div
-        class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-10 lg:gap-15 md:gap-10"
-      >
-        <div
-          data-aos="flip-up"
-          class="col-span-1 bg-gray-100 rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl hover: rounded-bl-4xl hover:rounded-tl-none shadow-md shadow-black"
-        >
+      <!-- Projects -->
+
+      <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-10 lg:gap-15 md:gap-10">
+
+        {% comment %} Project 1 {% endcomment %}
+        <div data-aos="flip-up" class="bg-gray-100 rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl hover:rounded-bl-4xl hover:rounded-tl-none shadow-md shadow-black">
           <div class="lg:p-8 md:p-7 p-3">
-            <div
-              class="overflow-hidden rounded-br-4xl hover:rounded-tr-4xl hover: rounded-bl-4xl hover:rounded-tl-none transition-all duration-400"
-            >
+            <div class="overflow-hidden rounded-br-4xl hover:rounded-tr-4xl hover:rounded-bl-4xl hover:rounded-tl-none transition-all duration-400">
               <a href="https://dine-market-psi.vercel.app">
-                <img class="rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl
-                hover: rounded-bl-4xl hover:rounded-tl-none hover:scale-110
-                transition-all duration-400" src="{% static "images/dine-market.webp" %}" alt="">
+                <img class="rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl hover:rounded-bl-4xl hover:rounded-tl-none hover:scale-110 transition-all duration-400" 
+                  src="{% static 'images/dine-market.webp' %}" alt="">
               </a>
             </div>
           </div>
           <div class="lg:px-12 px-6 pb-12 flex flex-col space-y-4">
-            <div class="font-semibold text-lg">Dine Martek</div>
-            <div class="font-bold lg:text-3xl text-2xl">
-              "Your One-Stop Shop for Everything!"
-            </div>
+            <div class="font-semibold text-lg">Dine Market</div>
+            <div class="font-bold lg:text-3xl text-2xl">"Your One-Stop Shop for Everything!"</div>
             <div class="text-lg">
-              Dine Market is an e-commerce website built using Next js,
-              typescript, tawilwind css and sanity.io.
+              Dine Market is an e-commerce website built using Next.js, TypeScript, Tailwind CSS, and Sanity.io.
             </div>
           </div>
         </div>
-        <div data-aos="flip-up" class="relative">
-          <div
-            class="col-span-1 absolute lg:top-40 md:top-30 top-20 bg-gray-100 rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl hover: rounded-bl-4xl hover:rounded-tl-none shadow-md shadow-black"
-          >
-            <div class="lg:p-8 md:p-7 p-3">
-              <div
-                class="overflow-hidden rounded-br-4xl hover:rounded-tr-4xl hover: rounded-bl-4xl hover:rounded-tl-none transition-all duration-400"
-              >
-                <a href="https://dashboard-test-project-theta.vercel.app"
-                  ><img class="rounded-tl-4xl rounded-br-4xl
-                  hover:rounded-tr-4xl hover: rounded-bl-4xl
-                  hover:rounded-tl-none hover:scale-110 transition-all
-                  duration-400" src="{% static "images/dashboard.webp" %}"
-                  alt=""></a
-                >
-              </div>
-            </div>
-            <div class="lg:px-12 px-6 pb-12 flex flex-col space-y-4">
-              <div class="font-semibold text-lg">Dashboard</div>
-              <div class="font-bold lg:text-3xl text-2xl">
-                "See the Big Picture with Real-Time Insights."
-              </div>
-              <div class="text-lg">
-                A Dashboard design built with Next js and React Chart library.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          data-aos="flip-right"
-          class="col-span-1 lg:mt-30 md:mt-30 mt-175 bg-gray-100 rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl hover: rounded-bl-4xl hover:rounded-tl-none shadow-md shadow-black"
-        >
+      
+        {% comment %} Project 2 {% endcomment %}
+        <div data-aos="flip-up" class="bg-gray-100 rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl hover:rounded-bl-4xl hover:rounded-tl-none shadow-md shadow-black mt-20">
           <div class="lg:p-8 md:p-7 p-3">
-            <div
-              class="overflow-hidden rounded-br-4xl hover:rounded-tr-4xl hover: rounded-bl-4xl hover:rounded-tl-none transition-all duration-400"
-            >
-              <a href=""
-                ><img class="rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl
-                hover: rounded-bl-4xl hover:rounded-tl-none hover:scale-110
-                transition-all duration-400" src="{% static "images/scribblers-corner.webp" %}" alt=""></a
-              >
+            <div class="overflow-hidden rounded-br-4xl hover:rounded-tr-4xl hover:rounded-bl-4xl hover:rounded-tl-none transition-all duration-400">
+              <a href="https://dashboard-test-project-theta.vercel.app">
+                <img class="rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl hover:rounded-bl-4xl hover:rounded-tl-none hover:scale-110 transition-all duration-400" 
+                  src="{% static 'images/dashboard.png' %}" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="lg:px-12 px-6 pb-12 flex flex-col space-y-4">
+            <div class="font-semibold text-lg">Dashboard</div>
+            <div class="font-bold lg:text-3xl text-2xl">"See the Big Picture with Real-Time Insights."</div>
+            <div class="text-lg">
+              A Dashboard design built with Next.js and React Chart library.
+            </div>
+          </div>
+        </div>
+      
+        {% comment %} Project 3 {% endcomment %}
+        <div data-aos="flip-right" class="bg-gray-100 rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl hover:rounded-bl-4xl hover:rounded-tl-none shadow-md shadow-black">
+          <div class="lg:p-8 md:p-7 p-3">
+            <div class="overflow-hidden rounded-br-4xl hover:rounded-tr-4xl hover:rounded-bl-4xl hover:rounded-tl-none transition-all duration-400">
+              <a href="">
+                <img class="rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl hover:rounded-bl-4xl hover:rounded-tl-none hover:scale-110 transition-all duration-400" 
+                  src="{% static 'images/scribblers-corner.webp' %}" alt="">
+              </a>
             </div>
           </div>
           <div class="lg:px-12 px-6 pb-12 flex flex-col space-y-4">
             <div class="font-semibold text-lg">Scribbler's Corner</div>
-            <div class="font-bold lg:text-3xl text-2xl">
-              "Connecting Nature, One Bite at a Time."
-            </div>
+            <div class="font-bold lg:text-3xl text-2xl">"Connecting Nature, One Bite at a Time."</div>
             <div class="text-lg">
-              A blogging website template with awesome features built using Next
-              js, Typescript, Tailwind css and sanity.io.
+              A blogging website template with awesome features built using Next.js, TypeScript, Tailwind CSS, and Sanity.io.
             </div>
           </div>
         </div>
-        <div data-aos="flip-left" class="relative">
-          <div
-            class="col-span-1 absolute lg:top-70 md:top-50 top-20 bg-gray-100 rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl hover: rounded-bl-4xl hover:rounded-tl-none shadow-md shadow-black"
-          >
-            <div class="lg:p-8 md:p-7 p-3">
-              <div
-                class="overflow-hidden rounded-br-4xl hover:rounded-tr-4xl hover: rounded-bl-4xl hover:rounded-tl-none transition-all duration-400"
-              >
-                <img class="rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl
-                hover: rounded-bl-4xl hover:rounded-tl-none hover:scale-110
-                transition-all duration-400" src="{% static "images/portfolio.webp" %}" alt="">
-              </div>
+      
+        {% comment %} Project 4 {% endcomment %}
+        <div data-aos="flip-left" class="bg-gray-100 rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl hover:rounded-bl-4xl hover:rounded-tl-none shadow-md shadow-black mt-20">
+          <div class="lg:p-8 md:p-7 p-3">
+            <div class="overflow-hidden rounded-br-4xl hover:rounded-tr-4xl hover:rounded-bl-4xl hover:rounded-tl-none transition-all duration-400">
+              <img class="rounded-tl-4xl rounded-br-4xl hover:rounded-tr-4xl hover:rounded-bl-4xl hover:rounded-tl-none hover:scale-110 transition-all duration-400" 
+                src="{% static 'images/portfolio.webp' %}" alt="">
             </div>
-            <div class="lg:px-12 px-6 pb-12 flex flex-col space-y-4">
-              <div class="font-semibold text-lg">Portfolio Website</div>
-              <div class="font-bold lg:text-3xl text-2xl">
-                "Elevating Ideas, One Project at a Time"
-              </div>
-              <div class="text-lg">Portfolio website built using React js.</div>
+          </div>
+          <div class="lg:px-12 px-6 pb-12 flex flex-col space-y-4">
+            <div class="font-semibold text-lg">Portfolio Website</div>
+            <div class="font-bold lg:text-3xl text-2xl">"Elevating Ideas, One Project at a Time"</div>
+            <div class="text-lg">
+              Portfolio website built using React.js.
             </div>
           </div>
         </div>
+      
       </div>
+      
 
-      <!-- Contact Us Section-->
+     
+          <!-- Contact Us Section-->
 
-      <div id="contact">
-        <div
-          class="text-center lg:mt-50 md:mt-30 mt-130 font-bold md:text-6xl text-4xl"
-        >
-          Let’s Discuss Your Project
-        </div>
-        <div class="text-center mt-10 text-lg font-semibold text-black">
-          We are committed to understanding your requirements and crafting a
-          tailored solution that aligns with your goals. <br />Enter your
-          details and someone from our team will reach out to find a time to
-          connect with you.
-        </div>
-        <form action="https://formspree.io/f/mdkeorjd" method="POST">
-          <div class="max-w-2xl mx-auto pt-10">
-            <div class="flex items-center space-x-4">
-              <label for="fname" class="text-lg w-40 font-medium text-black"
-                >First Name<span class="text-red-500">*</span></label
-              >
-              <input
-                type="text"
-                id="fname"
-                name="First-name"
-                class="mt-1 block w-120 px-3 py-4 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
-                placeholder=""
-              />
-            </div>
-          </div>
 
-          <div class="max-w-2xl mx-auto py-8">
-            <div class="flex items-center space-x-4">
-              <label for="lname" class="text-lg w-40 font-medium text-black"
-                >Last Name<span class="text-red-500">*</span></label
-              >
-              <input
-                type="text"
-                id="lname"
-                name="Last-name"
-                class="mt-1 block w-120 px-3 py-4 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
-                placeholder=""
-              />
-            </div>
-          </div>
 
-          <div class="max-w-2xl mx-auto">
-            <div class="flex items-center space-x-4">
-              <label for="email" class="text-lg font-medium text-black w-40"
-                >Email<span class="text-red-500">*</span></label
-              >
-              <input
-                type="email"
-                id="email"
-                name="Email"
-                class="mt-1 block w-120 px-3 py-4 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
-                placeholder=""
-              />
-            </div>
-          </div>
-
-          <div class="max-w-2xl mx-auto py-8">
-            <div class="flex items-center space-x-4">
-              <label for="phone" class="text-lg font-medium text-black w-40"
-                >Phone Number<span class="text-red-500">*</span></label
-              >
-              <input
-                type="tel"
-                id="phone"
-                name="Phone"
-                class="mt-1 block w-120 px-3 py-4 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
-                placeholder=""
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                title=""
-              />
-            </div>
-          </div>
-
-          <div class="max-w-2xl mx-auto py-8">
-            <div class="flex items-center space-x-4">
-              <label
-                for="project-details"
-                class="text-lg font-medium text-black w-40"
-                >Project Details<span class="text-red-500">*</span></label
-              >
-              <textarea
-                id="project-details"
-                name="Project-details"
-                rows="4"
-                class="mt-1 block w-120 px-3 py-4 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
-                placeholder=""
-              ></textarea>
-            </div>
-          </div>
-
-          <!-- Submit button -->
-          <div class="flex justify-center py-8">
-            <!-- Use button to submit the form -->
-            <button
-              type="submit"
-              class="bg-gray-800 text-white px-10 py-4 text-3xl font-bold rounded-4xl hover:bg-black"
+          
+    <div id="contact">
+      <div
+        class="text-center lg:mt-50 md:mt-30 mt-130 font-bold md:text-6xl text-4xl"
+      >
+        Let’s Discuss Your Project
+      </div>
+      <div class="text-center mt-10 text-lg font-semibold text-black">
+        We are committed to understanding your requirements and crafting a
+        tailored solution that aligns with your goals. <br />Enter your
+        details and someone from our team will reach out to find a time to
+        connect with you.
+      </div>
+      <form action="https://formspree.io/f/mdkeorjd" method="POST">
+        <div class="max-w-2xl mx-auto pt-10">
+          <div class="flex items-center space-x-4">
+            <label for="fname" class="text-lg w-40 font-medium text-black"
+              >First Name<span class="text-red-500">*</span></label
             >
-              Submit
-            </button>
+            <input
+              type="text"
+              id="fname"
+              name="First-name"
+              class="mt-1 block w-120 px-3 py-4 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
+              placeholder=""
+            />
           </div>
-        </form>
+        </div>
 
-       
-
-        <footer class="bg-gray-800 text-white py-4 border-t-4">
-          <div class="text-center">
-            <p>
-              &copy; 2025
-              <span class="font-bold text-yellow-400">AfsonTech</span>. All
-              Rights Reserved.
-            </p>
+        <div class="max-w-2xl mx-auto py-8">
+          <div class="flex items-center space-x-4">
+            <label for="lname" class="text-lg w-40 font-medium text-black"
+              >Last Name<span class="text-red-500">*</span></label
+            >
+            <input
+              type="text"
+              id="lname"
+              name="Last-name"
+              class="mt-1 block w-120 px-3 py-4 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
+              placeholder=""
+            />
           </div>
-        </footer>
+        </div>
+
+        <div class="max-w-2xl mx-auto">
+          <div class="flex items-center space-x-4">
+            <label for="email" class="text-lg font-medium text-black w-40"
+              >Email<span class="text-red-500">*</span></label
+            >
+            <input
+              type="email"
+              id="email"
+              name="Email"
+              class="mt-1 block w-120 px-3 py-4 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
+              placeholder=""
+            />
+          </div>
+        </div>
+
+        <div class="max-w-2xl mx-auto py-8">
+          <div class="flex items-center space-x-4">
+            <label for="phone" class="text-lg font-medium text-black w-40"
+              >Phone Number<span class="text-red-500">*</span></label
+            >
+            <input
+              type="tel"
+              id="phone"
+              name="Phone"
+              class="mt-1 block w-120 px-3 py-4 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
+              placeholder=""
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              title=""
+            />
+          </div>
+        </div>
+
+        <div class="max-w-2xl mx-auto py-8">
+          <div class="flex items-center space-x-4">
+            <label
+              for="project-details"
+              class="text-lg font-medium text-black w-40"
+              >Project Details<span class="text-red-500">*</span></label
+            >
+            <textarea
+              id="project-details"
+              name="Project-details"
+              rows="4"
+              class="mt-1 block w-120 px-3 py-4 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
+              placeholder=""
+            ></textarea>
+          </div>
+        </div>
+
+        <!-- Submit button -->
+        <div class="flex justify-center py-8">
+          <!-- Use button to submit the form -->
+          <button
+            type="submit"
+            class="bg-gray-800 text-white px-10 py-4 text-3xl font-bold rounded-4xl hover:bg-black"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+
+     
+
+      <footer class="bg-gray-800 text-white py-4 border-t-4">
+        <div class="text-center">
+          <p>
+            &copy; 2025
+            <span class="font-bold text-yellow-400">AfsonTech</span>. All
+            Rights Reserved.
+          </p>
+        </div>
+      </footer>
     </div>
+  </div>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
